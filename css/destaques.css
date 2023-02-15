@@ -39,3 +39,15 @@
   border-color: var(--vermelho);
   margin: 0 auto;
 }
+
+@media  screen and (min-width: 768px) {
+    .destaques__botao{
+        display: block;
+      }
+}
+
+@media  screen and (min-width: 1024px){
+    .destaques__painel-imagem{
+        width: 100%;
+    }
+}
