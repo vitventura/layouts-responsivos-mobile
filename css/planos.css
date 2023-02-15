@@ -29,6 +29,7 @@
     background-color: var(--branco);
 
     width: 100%;
+    height: 350px;
     max-width: 300px;
 
     margin-bottom: 2rem;
@@ -70,12 +71,12 @@
 .cartao__botao {
     font-size: 1.2rem;
     font-weight: 700;
-
+    display: inline-block;
     width: 100%;
-
-    align-self: center;
-
-    padding: .75rem 2rem;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: .625rem;
 
     margin-top: 1rem;
     margin-bottom: 1rem;
