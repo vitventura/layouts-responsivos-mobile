@@ -114,6 +114,18 @@
 
 @media screen and (min-width:1024px){
     .planos__cartoes{
+        justify-content: space-between;
         flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .cartao{
+       max-width: 300px;
+       width: auto;
+       height: 100%;
+    }
+
+    .cartao__conteudo{
+        padding: 1rem 1.25rem;
     }
 }
